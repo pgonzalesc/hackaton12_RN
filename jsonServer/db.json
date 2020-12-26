@@ -1,0 +1,6 @@
+{
+    "characters": [
+      { "id": 1, "keyName": "Dragón", "name": "Botobai Gigante", "nenType": "Intensificador", "typeHunter": "Cazador anti Terrorista", "range": "Triple estrella", "image": "https://static.wikia.nocookie.net/hunterxhunter/images/5/57/Botobai_2011.png/revision/latest?cb=20140704163059&path-prefix=es" },
+      { "id": 2, "keyName": "Perro", "name": "Cheadle Yorkshire", "nenType": "Desconocido", "typeHunter": "Cazadora de virus", "range": "Triple estrella", "image": "https://static.wikia.nocookie.net/hunterxhunter/images/e/e4/Cheadle_Design_2011.png/revision/latest/scale-to-width-down/166?cb=20140623193618&path-prefix=es" }
+    ]
+}
