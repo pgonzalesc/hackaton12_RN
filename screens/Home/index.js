@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {StyleSheet, View, Text, TouchableHighlight} from 'react-native';
+import {StyleSheet, View, Text} from 'react-native';
 import Api from '../../src/api';
 import Slider from '../../src/components/Slider/Character/Slider';
 import Carousel from '../../src/components/Slider/News/Carousel';
