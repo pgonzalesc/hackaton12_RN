@@ -3,6 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from '@react-navigation/native';
 import Home from "../../../../screens/Home";
 import Splash from "../../../../screens/Splash";
+import Detalle from "../../../../screens/Detalle";
 
 const Stack = createStackNavigator();
 //const RootStack = createStackNavigator();
@@ -20,6 +21,7 @@ const MainStackNavigator = () => {
     // <Stack.Navigator screenOptions={screenOptionStyle}>
     <Stack.Navigator mode="modal" headerMode="none">
       <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Detalle" component={Detalle} />
       <Stack.Screen name="Splash" component={Splash}/>
     </Stack.Navigator>
     // <NavigationContainer>
