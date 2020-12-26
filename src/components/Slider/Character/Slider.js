@@ -20,8 +20,9 @@ const styles = StyleSheet.create({
 
 const Slider = ({navigation, data}) => {
   const scrollX = new Animated.Value(0);
-
+  //console.log('data', data);
   const detail = (item) => {
+    //console.log('item', item);
     navigation.navigate('Detalle', item);
   };
 

@@ -16,6 +16,14 @@ const hunterApi = {
         };
         const data = await fetchApi.get('/characters', config);
         return data;
+    },
+    getEpisodes: async () => {
+        const token = 'e9e54356514faa4bf4dfb15858802f6e';
+        const config = {
+            Authorization: `Bearer ${token}`,
+        };
+        const data = await fetchApi.get('/episodes', config);
+        return data;
     }
 };
 

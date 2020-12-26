@@ -85,5 +85,31 @@
            "skill": "Goma Bungee"
         }
       }
+    ],
+    "episodes": [
+       {
+          "id": 1,
+          "title": "Capitulo 1",
+          "description": "Viaje x y x Amigos",
+          "image": "https://static.wikia.nocookie.net/hunterxhunter/images/c/c6/Gon_pescando_al_maestro_del_lago.png/revision/latest?cb=20140712034527&path-prefix=es"
+       },
+       {
+         "id": 2,
+         "title": "Capitulo 2",
+         "description": "Prueba × de × Pruebas",
+         "image": "https://static.wikia.nocookie.net/hunterxhunter/images/c/c8/Familia_Kiriko.png/revision/latest?cb=20140411035904&path-prefix=es"
+      },
+      {
+         "id": 3,
+         "title": "Capitulo 3",
+         "description": "Rivales × por × Supervivencia",
+         "image": "https://static.wikia.nocookie.net/hunterxhunter/images/b/b3/Gon_escupe_el_jugo.png/revision/latest?cb=20140713191429&path-prefix=es"
+      },
+      {
+         "id": 4,
+         "title": "Capitulo 4",
+         "description": "Esperanza × y × Ambición",
+         "image": "https://static.wikia.nocookie.net/hunterxhunter/images/5/56/Gon_conoce_a_Killua.png/revision/latest?cb=20140713192159&path-prefix=es"
+      }
     ]
 }
