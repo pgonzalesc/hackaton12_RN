@@ -1,6 +1,89 @@
 {
     "characters": [
-      { "id": 1, "keyName": "Dragón", "name": "Botobai Gigante", "nenType": "Intensificador", "typeHunter": "Cazador anti Terrorista", "range": "Triple estrella", "image": "https://static.wikia.nocookie.net/hunterxhunter/images/5/57/Botobai_2011.png/revision/latest?cb=20140704163059&path-prefix=es" },
-      { "id": 2, "keyName": "Perro", "name": "Cheadle Yorkshire", "nenType": "Desconocido", "typeHunter": "Cazadora de virus", "range": "Triple estrella", "image": "https://static.wikia.nocookie.net/hunterxhunter/images/e/e4/Cheadle_Design_2011.png/revision/latest/scale-to-width-down/166?cb=20140623193618&path-prefix=es" }
+       { "id": 1, 
+         "image": "https://static.wikia.nocookie.net/hunterxhunter/images/b/b4/Gon-2011.png/revision/latest/scale-to-width-down/204?cb=20130530222837&path-prefix=es",
+         "name": "Gon Freecss", 
+         "profile": {
+             "sex": "Masculino",
+             "age": "12",
+             "birthday": "5 de Mayo",
+             "height": "1.57 m",
+             "weight": "45 kg",
+             "blood": "B",
+             "occupation": "Cazador"
+         },
+         "nen": {
+             "type": "Intensificador",
+             "skill": "Jajanken"
+         }
+       },
+       { "id": 2, 
+         "image": "https://static.wikia.nocookie.net/hunterxhunter/images/7/7c/Killua-2011.png/revision/latest/scale-to-width-down/190?cb=20121113132331&path-prefix=es",
+         "name": "Killua Zoldyck", 
+         "profile": {
+            "sex": "Masculino",
+            "age": "12",
+            "birthday": "7 de Julio",
+            "height": "1.57 m",
+            "weight": "43 kg",
+            "blood": "A",
+            "occupation": "Cazador"
+         },
+         "nen": {
+            "type": "Transformación",
+            "skill": "Narukami"
+         }
+       },
+       { "id": 3, 
+        "image": "https://static.wikia.nocookie.net/hunterxhunter/images/2/25/Kurapika-2011.png/revision/latest/scale-to-width-down/186?cb=20130530225248&path-prefix=es",
+        "name": "Kurapika", 
+        "profile": {
+           "sex": "Masculino",
+           "age": "17",
+           "birthday": "4 de Abril",
+           "height": "1.71 m",
+           "weight": "59 kg",
+           "blood": "AB",
+           "occupation": "Cazador de Listas Negras"
+        },
+        "nen": {
+           "type": "Materialización",
+           "skill": "Judgement Chain"
+        }
+      },
+      { "id": 4, 
+        "image": "https://static.wikia.nocookie.net/hunterxhunter/images/0/08/Leorio-2011.png/revision/latest/scale-to-width-down/183?cb=20140528195255&path-prefix=es",
+        "name": "Leorio Paradinight", 
+        "profile": {
+           "sex": "Masculino",
+           "age": "18",
+           "birthday": "3 de Marzo",
+           "height": "1.93 m",
+           "weight": "85 kg",
+           "blood": "O",
+           "occupation": "Cazador"
+        },
+        "nen": {
+           "type": "Emisión",
+           "skill": "Sin nombre"
+        }
+      },
+      { "id": 5, 
+        "image": "https://static.wikia.nocookie.net/hunterxhunter/images/6/67/Hisoka_PR_Movie.png/revision/latest/scale-to-width-down/195?cb=20130530145606&path-prefix=es",
+        "name": "Hisoka Morow", 
+        "profile": {
+           "sex": "Masculino",
+           "age": "28",
+           "birthday": "6 de Julio",
+           "height": "1.86 m",
+           "weight": "62 kg",
+           "blood": "B",
+           "occupation": "Cazador"
+        },
+        "nen": {
+           "type": "Transformación",
+           "skill": "Goma Bungee"
+        }
+      }
     ]
 }
