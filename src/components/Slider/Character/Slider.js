@@ -1,15 +1,6 @@
-import React, {useState, useEffect} from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  Dimensions,
-  FlatList,
-  Animated,
-} from 'react-native';
+import React from 'react';
+import { View, StyleSheet, FlatList, Animated } from 'react-native';
 import SliderItem from './SliderItem';
-
-const {height, width} = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   dot: {
@@ -20,9 +11,7 @@ const styles = StyleSheet.create({
 
 const Slider = ({navigation, data}) => {
   const scrollX = new Animated.Value(0);
-  //console.log('data', data);
   const detail = (item) => {
-    //console.log('item', item);
     navigation.navigate('Detalle', item);
   };
 

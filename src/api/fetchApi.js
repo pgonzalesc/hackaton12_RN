@@ -102,7 +102,7 @@ const fetchApi = {
                    }
                })
     },
-    post: async (url, config) => {
+    post: async (url, parameters, config) => {
         return instance
                .post(url, parameters, config)
                .then( result => {

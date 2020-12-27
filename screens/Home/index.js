@@ -13,12 +13,12 @@ const Home = ({navigation})=> {
         Api.hunterApi
         .getCharacter()
         .then((data) => {
-        if (data.errors) {
-            console.warn('get api order error', data);
-            setError(data.errors);
-        } else {
-            setCharacters(data);
-        }
+            if (data.errors) {
+                console.warn('get api order error', data);
+                setError(data.errors);
+            } else {
+                setCharacters(data);
+            }
         })
         .catch((e) => {
             console.warn('get api order catch', e);
