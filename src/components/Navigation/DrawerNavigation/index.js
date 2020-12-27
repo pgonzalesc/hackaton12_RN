@@ -1,7 +1,6 @@
 import React from "react";
-
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import Splash from '../../../../screens/Splash'
+import Splash from '../../../../screens/Splash';
 import TabNavigator from '../TabNavigator';
 
 const Drawer = createDrawerNavigator();

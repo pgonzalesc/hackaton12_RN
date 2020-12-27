@@ -104,7 +104,7 @@ const Detalle = ({navigation, route}) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        //backgroundColor: '#1C7534',
+        backgroundColor: '#C9E2FF',
     },
     containerName: {
         backgroundColor: '#124A19',

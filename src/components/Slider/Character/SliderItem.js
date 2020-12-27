@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet, Text, Image, Dimensions, TouchableHighlight} from 'react-native';
+import {View, StyleSheet, Text, Image, Dimensions, TouchableOpacity} from 'react-native';
 
 const {width, height} = Dimensions.get('window');
 
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
 
 const SliderItem = ({item, onPress}) => {
   return (
-    <TouchableHighlight onPress={onPress}>
+    <TouchableOpacity onPress={onPress}>
       <View style={styles.container}>
         <Image
           style={styles.image}
@@ -46,7 +46,7 @@ const SliderItem = ({item, onPress}) => {
           <Text style={styles.itemTitle}>{item.name}</Text>
         </View>
       </View>
-    </TouchableHighlight>
+    </TouchableOpacity>
   );
 };
 
